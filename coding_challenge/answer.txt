@@ -1,0 +1,17 @@
+Key things I would consider when creating/consuming an API :
+
+1. Authentication and Authorization :- Only the required users are accssing your API securly.
+
+2. Error Handling :- Design API to provide helpful error messages in case of exception.
+
+3. Usage Limit :- Set limits on how often a user or system can make requests to your API.
+
+4. Valid Input :- Check information you get from API so that it won't cause issues in your application.
+
+6. Rate Limit :- Respect the maximum number of requests allowed with API otherwise you will be blocked.
+
+6. Secure Data Transmission :- API communication should secured by using HTTPS.
+
+
+
+
