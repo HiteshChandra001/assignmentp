@@ -1,11 +1,14 @@
 # Coding_Challenge
 
+## Overview
+This Spring Boot project provides a Product Management API with functionalities to create products and retrieve products by category. Built with Java and Spring Boot, it uses RestTemplate for communication with external API and Maven for project management, offering a streamlined solution for product data management.
+
 - **Create Product**: Add a new Product to the server.
 - **Get Product List By Category**: Retrieve a list of Products by Category.
 
 ### Technologies Used
 
-- **Backend**: Java, Spring Boot, Maven
+- **Backend**: Java, Spring Boot, RestTemplate, Maven
 
 ### Prerequisites
 
@@ -19,7 +22,7 @@
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/HiteshChandra001/assignmentp.git
-    cd backend
+    cd coding_challenge
     ```
 
 2. **Build and Run the Backend**:
@@ -34,16 +37,22 @@
 ## API Endpoints
 
 - **POST /products**: Create a new product.
-- **GET /products/byCategory/jewellery**: Retrieve a list of prooduct by category.
+- **GET /products/byCategory/jewellery**: Retrieve a list of product by category.
+
+
+<hr>
+
 
 # Theoritical_Challenge
 
-- **Create Product**: Add a new Product to the server.
-- **Get Product List By Category**: Retrieve a list of Products by Category.
+## Overview
+This project allows users to upload a CSV file, which is then processed and returned as a downloadable CSV file. The processing involves operations calculating and transforming the data. Built using Spring Boot, it efficiently handles file uploads and returns the processed result in real time.
+
+- **Upload CSV**:  upload a CSV file and in response, It returns a processed CSV file.
 
 ### Technologies Used
 
-- **Backend**: Java, Spring Boot, Maven
+- **Backend**: Java, Spring Boot, OpenCSV, Maven
 
 ### Prerequisites
 
@@ -57,7 +66,7 @@
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/HiteshChandra001/assignmentp.git
-    cd backend
+    cd theoritical_challenge
     ```
 
 2. **Build and Run the Backend**:
@@ -66,12 +75,11 @@
     mvn spring-boot:run
     ```
 
-    The backend server will run on `http://localhost:8080`.
+    The backend server will run on `http://localhost:9000`.
 
     
 ## API Endpoints
 
-- **POST /products**: Create a new product.
-- **GET /products/byCategory/jewellery**: Retrieve a list of prooduct by category.
+- **POST /csv/process?file=input**: upload a CSV file and in response, It returns a processed CSV file.
 
 
